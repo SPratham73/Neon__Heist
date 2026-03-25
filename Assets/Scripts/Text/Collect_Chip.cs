@@ -28,7 +28,7 @@ public class Collect_Chip : MonoBehaviour
             if (hit.collider.CompareTag("Chip"))
             {
                 
-                interactText.text = "Press E / Tap to collect the chip";
+                interactText.text = "Press E collect the chip";
 
                 bool mobileInput = (inputs != null && inputs.interact);
                 bool pcInput = Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame;
